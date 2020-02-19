@@ -1,0 +1,141 @@
+:root{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.companyLogo{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+}
+
+.companyLogo img {
+    width: 200px;
+}
+
+.errorBlock{
+    /* border:1px solid red; */
+    margin-top: 15px;
+    text-align: center;
+}
+
+.errorImage img{
+    width: 100px;
+    margin-top: 4vh;
+    /* border: 1px solid red; */
+}
+
+.errorMessage{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+    padding-top: 5px;
+}
+
+.errorParagrapgh{
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color: #999999;
+    width:370px;
+    font-weight: 500;
+    /* border: 1px solid red; */
+    margin: 1px auto;
+}
+
+.browsersBlock{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 50vw;
+    justify-content: space-around;
+    margin:15px auto;
+}
+
+
+.individualImage{
+    text-align: center;
+}
+
+.individualName{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.individualVersions{
+    text-align: center;
+    font-family: sans-serif;
+    color: #999999;
+    font-size: 0.7rem;
+}
+
+.individualBrowserVersions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #e2b37c;
+    border-radius: 30px;
+    background-color: #e2b37c;
+}
+
+.individualBrowserVersions img{
+    width:11px;
+    height: 15px;
+}
+
+.individualBrowserVersions p{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 600;
+}
+
+#chrome{
+    display: none;
+}
+
+#safari{
+    display: none;
+}
+
+#mozilla{
+    display: none;
+}
+
+#internetExplorer{
+    display: none;
+}
+
+#microsoftEdge{
+    display: none;
+} 
+
+@media screen and (max-width: 960px) {
+    .browsersBlock{
+        width: 70vw;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .browsersBlock{
+        width: 80vw;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .browsersBlock{
+        display: flex;
+        flex-direction: column;
+    }
+  }
