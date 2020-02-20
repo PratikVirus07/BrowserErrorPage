@@ -57,6 +57,9 @@
     margin:15px auto;
 }
 
+/* .browsersBlockSafari{
+    display: -webkit-box;
+} */
 
 .individualImage{
     text-align: center;

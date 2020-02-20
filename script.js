@@ -91,7 +91,11 @@ function setErrorElement (browser){
         firefoxVersion.innerText = numberVersion
     }
     else if (browser == "Safari"){
-        safari.style.display = "flex"
+        safari.style.display = "-webkit-box"
+        // safari.style.width = "120px";
+        // safari.style.justifyContent = "center"; 
+        // safari.style.alignItems = "center";
+        // safari.style.margin = auto;  
         safariVersion.innerText = numberVersion
     }
     else if (browser == "Microsoft Internet Explorer"){
